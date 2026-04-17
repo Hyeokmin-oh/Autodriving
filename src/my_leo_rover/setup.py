@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'maze_run = my_leo_rover.Maze_Leo_Rover:main',
-	    'maze_brain = my_leo_rover.maze_brain:main',
+            'simulator = my_leo_rover.leo_simulator:main',
+	        'planner = my_leo_rover.leo_planner:main',
         ],
     },
 )
